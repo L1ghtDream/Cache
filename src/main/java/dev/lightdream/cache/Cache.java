@@ -4,6 +4,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 import java.util.function.Consumer;
 
+@SuppressWarnings("unused")
 public class Cache<T> {
 
     public long updatePeriod;
