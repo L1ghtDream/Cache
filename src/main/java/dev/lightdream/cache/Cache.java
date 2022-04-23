@@ -16,7 +16,6 @@ public class Cache<T> {
         this.updater = updater;
         this.updatePeriod = updatePeriod;
         registerUpdater();
-        update();
     }
 
     public void update() {
